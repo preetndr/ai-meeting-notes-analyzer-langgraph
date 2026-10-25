@@ -1,6 +1,6 @@
 # AI Meeting Notes Analyzer using LangGraph
 
-## Comprehensive 10-Page Technical Documentation & Bootcamp Assignment Report
+## Comprehensive Technical Documentation Report
 
 ---
 
