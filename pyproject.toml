@@ -1,0 +1,32 @@
+[project]
+name = "capstone-3"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Preet", email = "60371681+preetndr@users.noreply.github.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "google-generativeai>=0.8.0",
+    "langchain>=0.3.0",
+    "langchain-core>=0.3.0",
+    "langchain-google-genai>=2.0.0",
+    "langgraph>=0.2.0",
+    "pydantic>=2.0.0",
+    "python-dotenv>=1.0.0",
+    "streamlit>=1.38.0",
+]
+
+[project.scripts]
+capstone-3 = "capstone_3:main"
+
+[build-system]
+requires = ["uv_build>=0.12.18,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+    "ruff>=0.17.1",
+]
