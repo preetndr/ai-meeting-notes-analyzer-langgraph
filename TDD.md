@@ -1,6 +1,6 @@
 # AI Meeting Notes Analyzer using LangGraph
 
-## Comprehensive Technical Documentation Report
+## Comprehensive Technical Design Document
 
 ---
 
